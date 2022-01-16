@@ -5,7 +5,7 @@ import {
 } from "react-router-dom";
 import Listing from 'pages/Listing';
 import Form from 'pages/Form';
-import Navbar from "components/NavBar";
+import Navbar from "components/navBar";
 
 function App() {
   return (
