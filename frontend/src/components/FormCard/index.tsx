@@ -21,11 +21,12 @@ function FormCard( { movieId } : Props) {
             });
     }, [movieId]);
 
-    const handleSubmit = (event : React.FormEvent<HTMLFormElement>) => {
+    const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
 
         const email = (event.target as any).email.value;
         const score = (event.target as any).score.value;
+
 
         if(!validateEmail(email)){
             return;
